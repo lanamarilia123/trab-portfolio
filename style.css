@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.cont{
+    height: 100%;
+    align-items: center;
+    background-color: white;
+    max-width: auto;
+    padding: 2% 3%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav .logo{
+   
+    font-size: 37px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    margin-left: 13%;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-right: 30px;
+
+}
+nav ul li {
+   padding: 15px;
+   margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(146, 165, 250);
+}
+
+#name {
+    color:white;
+    font-size: 45px;
+    margin-left: 2%;
+}
+#p1{
+    color:white;
+    display: flex;
+    margin-top: 6%;
+
+}
+#p1 p{  
+    text-align: justify;
+    margin: 5% 20%;
+    font-size: 22px;
+}
+.card{
+    display: flex;
+
+}
+#foto1{
+    margin-top: 15%;
+}
+
+#logo{
+    width: 40px;
+}

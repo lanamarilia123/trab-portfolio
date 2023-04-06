@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.cont{
+    height: 100%;
+    align-items: center;
+    background-color: white;
+    max-width: auto;
+    padding: 2% 3%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+
+nav .logo{
+   
+    font-size: 37px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    margin-left: 13%;
+
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;   
+    margin-right: 30px;
+    
+}
+nav ul li {
+   padding: 15px;
+   margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(146, 165, 250);
+}
+
+.paragrafo{
+    color:white;
+    margin-top: 4%;
+    margin-left: 3%;
+    display: flex;
+
+}
+
+.card_form{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.texto{
+    width: 25%;
+
+}
+.texto h1{
+    text-align: center;
+    color:white;
+}
+.texto p{
+    margin-top: 8%;
+    text-align: justify;
+    color: white;
+}
+
+.p3{
+    
+    color:white;
+    padding: 3% 9%;
+}
+#logo{
+    width: 40px;
+}
+
+#pcenter{
+    text-align: center;
+}
+
+#p3 p{
+    text-align: center;
+}
+
+.card_dir{  
+    display: flex;
+    justify-content: right;
+    background-color: white;
+}    
+.card_esq{
+    background-color: white;
+
+}
+.fotos{
+    width: 39%;
+    margin: 1%;
+}
